@@ -3,3 +3,6 @@ hw02_splits/
 .test.py.ipynb
 .ipynb_checkpoints/
 test.py.ipynb
+test_prediction.ipynb
+test_detector.ipynb
+
