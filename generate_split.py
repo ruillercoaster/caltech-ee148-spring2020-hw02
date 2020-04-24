@@ -46,7 +46,7 @@ np.save(os.path.join(split_path,'file_names_train.npy'),file_names_train)
 np.save(os.path.join(split_path,'file_names_test.npy'),file_names_test)
 
 if split_test:
-    with open(os.path.join(gts_path, 'formatted_annotations_mturk.json'),'r') as f:
+    with open(os.path.join(gts_path, 'formatted_annotations_students.json'),'r') as f:
         gts = json.load(f)
     
     # Use file_names_train and file_names_test to apply the split to the
